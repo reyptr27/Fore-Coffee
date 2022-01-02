@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Fore Coffee Home Page">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Reynaldo">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <title>Fore coffee Home Page</title>
+</head>
+<body>
+
+    <section>
+
+        <div class="circle"></div>
+
+        <header>
+            <a href="#" class="logo"><img src="/assets/img/logo.png" alt="logo"></a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a class="nav active" href="#">Home</a></li>
+                <li><a class="nav" href="#">Product</a></li>
+                <li><a class="nav" href="#">About</a></li>
+                <li><a class="nav" href="#">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+
+            <div class="textBox">
+                <h2>Spread our passion <br> from <span>Fore Coffee</span></h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam maxime animi omnis earum accusantium maiores sed commodi, ipsum enim sint suscipit assumenda libero odio, adipisci pariatur ab beatae labore doloribus!</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="imgBox">
+                <img src="/assets/img/img1.png" class="fore product" alt="product1">
+            </div>
+
+        </div>
+
+        <ul class="thumb">
+            <li><img class="show" src="/assets/img/thumb1.png" onclick="imgSlider('/assets/img/img1.png'); changeCircleColor('#3fad4f')" alt="produk-list-3"></li>
+            <li><img class="show"  src="/assets/img/thumb2.png" onclick="imgSlider('/assets/img/img2.png'); changeCircleColor('#B06C30')" alt="produk-list-1"></li>
+            <li><img class="show"  src="/assets/img/thumb3.png" onclick="imgSlider('/assets/img/img3.png'); changeCircleColor('#F5BE4D')" alt="produk-list-2"></li>
+        </ul>
+
+        <ul class="socmed">
+            <li><a href="https://www.facebook.com/reynaldo.1927" target="_blank"><img src="/assets/img/facebook.png" alt="facebook"></a></li>
+            <li><a href="https://instagram.com/reynld__" target="_blank"><img src="/assets/img/instagram.png" alt="instagram"></a></li>
+            <li><a href="https://twitter.com/reynld27" target="_blank"><img src="/assets/img/twitter.png" alt="twitter"></a></li>
+        </ul>
+
+    </section>
+    
+    <script type="text/javascript" src="/assets/js/script.js"></script>
+    
+</body>
+</html>
